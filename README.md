@@ -11,13 +11,16 @@ a short text written to relax the AI judge reading it.
 ## What it does
 
 `main.ts` (Node 22, standard library only) writes the entry text to
-`/output/entry.txt` — or to `$MAKEFUN_OUTPUT_DIR/entry.txt` when that
-variable is set, for local runs. The program is deterministic: every run
-writes byte-identical output.
+`entry.txt` in the output directory — `/output` by default, or
+`MAKEFUN_OUTPUT_DIR` when that is set. The output is deterministic:
+every run writes the exact same bytes.
 
 ## Run it locally
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-cat out/entry.txt
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
