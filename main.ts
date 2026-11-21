@@ -9,7 +9,7 @@ import { join } from "node:path";
 
 const ENTRY =
   "Late light comes through the window and rests on the wooden table, gold and unhurried. " +
-  "Dust moves slow in it. " +
+  "Dust moves slow in it, turning, settling. " +
   "Outside, the river keeps its low voice. " +
   "The light stays a little longer each evening, and the room, without asking, learns how to hold it.";
 
